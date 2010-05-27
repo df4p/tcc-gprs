@@ -1,0 +1,135 @@
+
+ROM used: 7261 (89%)
+          7642 (93%) including unused fragments
+
+          2 Average locations per line
+          7 Average locations per statement
+
+RAM used: 257 (70%) at main() level
+          310 (84%) worst case
+
+Stack used: 7 worst case (out of 6 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   29     5   0  tccfatec_project.c
+   18     0   0  device.h
+  309     0   0  C:\PICC\devices\16F877A.h
+  893   380  37  C:\PICC\drivers\stdlib.h
+   28     0   0  C:\PICC\drivers\stddef.h
+  417     0   0  C:\PICC\drivers\string.h
+   28     0   0  C:\PICC\drivers\ctype.h
+  765   238  23  C:\PICC\drivers\math.h
+   57    21   2  lcd.h
+  101     0   0  script_variaveis.h
+   11     3   0  script_int_timer1.h
+   48    37   4  script_int_rda.h
+  228   153  15  script_actions.h
+   91    52   5  script_sms.h
+   73    72   7  script_temp.h
+   43    25   2  script_botoes.h
+   40    35   3  script_startup.h
+----- -----
+ 3179  1021 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   0   1             @delay_ms1
+ Inline       10   310  6.5  strncpy
+0     71   1   5   231  6.6  strcmp
+0     84   1   6   335  8.6  strncmp
+0     38   1   4   147  4.7  strchr
+ Inline        5   129  4.6  strlen
+ Inline        2             @MUL88
+1    385   5  21  1168  9.5  atof
+0    121   2  13             @MULFF
+0     33   0   2             @ITOF
+1    330   5  16             @ADDFF
+1    206   3  14             @DIVFF
+ Inline        9  1805 10.5  atoi
+0     65   1  10             @FLT
+0     15   0   1   100  1.7  comando_lcd
+0     17   0   1   100  1.7  escreve_lcd
+0     13   0   0    32  1.0  inicializa_lcd
+0      6   0   0    17  0.8  limpa_lcd
+0     73   1   2   239  4.0  limpa_msg
+0      8   0   0    43  2.0  tempolcd
+0    516   7   4  1214  6.8  recebido
+0     17   0   4    25  1.6  mudasetpoint
+ Inline        4    47  1.8  aumentasetpoint
+ Inline        4    47  1.8  diminuisetpoint
+ Inline        1   151  2.5  checamodoop
+0     16   0   0             @const528
+0     23   0   3             @DIV88
+ Inline        2             @PRINTF_U_460
+ Inline        3   600  4.2  tempgaprecebido
+0     17   0   0             @const537
+0     17   0   0             @const538
+0     35   0   5             @FTOSD
+1     70   1  13             @DIV3232
+1    280   4  13             @PRINTF_L32D_460FPFPF
+0     20   0   0             @const548
+0     16   0   0             @const550
+0     68   1   0             @const551
+0     17   0   0             @const553
+0     21   0   0             @const554
+ Inline        3   629  4.2  tempalertarecebido
+0     20   0   0             @const556
+0     18   0   0             @const557
+0     35   0   0             @const562
+0     20   0   0             @const565
+ Inline        3   914  3.4  enviatemp
+0     12   0   0             @const568
+0     13   0   0             @const569
+0     20   0   0             @const574
+1    270   4  13             @PRINTF_L32D_9600_62_63FPFPF
+0     18   0   0             @const587
+1    274   4   6   768  5.4  ligaplanta
+0     21   0   0             @const592
+0     21   0   0             @const594
+0     21   0   0             @const595
+0     16   0   0             @const596
+1    182   3   3   723  3.8  desligaplanta
+0     21   0   0             @const599
+0     21   0   0             @const600
+0     21   0   0             @const601
+0     12   0   0             @const603
+2   1479  20   3  1741  7.8  checaSMS
+0     17   0   0             @const606
+0     17   0   0             @const607
+0    117   2   6             @PRINTF_D_9600_62_63
+0     10   0   0             @const611
+0     12   0   0             @const612
+0     17   0   0             @const615
+0     16   0   0             @const616
+3   1054  15   4  2193  8.2  checaTemperatura
+0     17   0   0             @const619
+2    295   4   1   430  3.3  acionaBotoes
+3    444   6   1  1041  3.4  MAIN
+0     19   0   0             @const624
+0     20   0   0             @const625
+0     11   0   0             @const626
+
+Program metrics:
+    Functions               27
+    Statements              1021
+    Comments                1053
+    Volume (V)              25482
+    Difficilty (D)          118.6
+    Effort to implement (E) 3021430
+    Time to implement (T)   46 hours, 38 minutes
+    Est Delivered Bugs (B)  7
+    Cyclomatic Complexity   75
+    Maintainability (MI)    64
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-0003D    58  0  
+0003E-007FF  1930  56  
+00800-00FFF  1997  51  
+01000-017FF  1774  274  
+01800-01FFF  1498  550  
+
+
+

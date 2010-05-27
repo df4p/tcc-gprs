@@ -1,0 +1,4 @@
+>>> Warning 203 "tccfatec_project.c" Line 22(1,1): Condition always TRUE
+>>> Warning 216 "tccfatec_project.c" Line 30(0,1): Interrupts disabled during call to prevent re-entrancy:  (strncmp)
+      Memory usage:   ROM=89%      RAM=70% - 84%
+      0 Errors,  2 Warnings.

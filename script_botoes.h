@@ -1,0 +1,42 @@
+void acionaBotoes(void){
+      
+   if(bt1==0){    
+   ligaplanta(naoalterasetpoint, local);
+      while(bt1==0){
+      }
+   }
+   
+   if(bt2==0){
+   desligaplanta(local);
+      while(bt2==0){
+      }
+   }
+   
+   if(bt3==0){
+      checamodoop();
+      //piscarele();
+      while(bt3==0){
+      }
+   }
+   
+   if(bt4==0){
+   aumentasetpoint();
+      while(bt4==0){
+      }
+   }
+   
+   if(bt5==0){
+   diminuisetpoint();
+      while(bt5==0){
+      }
+   }
+
+/*
+   if(bt6==0){
+   mostravalores();
+      while(bt6==0){
+      }
+   }
+*/
+
+}
