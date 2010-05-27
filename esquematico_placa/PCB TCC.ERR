@@ -1,0 +1,66 @@
+P-CAD ASCII File Open: PCB TCC.ERR
+
+======================================================================
+
+Warning (line 242): Pad/via style 'cont4' has a hole diameter that extends outsi
+de the pad shapes.
+Warning (line 252): Pad/via style 'cont5' has a hole diameter that extends outsi
+de the pad shapes.
+Warning (line 900): Pad/via style 'cont17' has a hole diameter that extends outs
+ide the pad shapes.
+Warning (line 910): Pad/via style 'cont18' has a hole diameter that extends outs
+ide the pad shapes.
+Warning (line 1118): Pad/via style 'cont22' has a hole diameter that extends out
+side the pad shapes.
+Warning (line 1128): Pad/via style 'cont23' has a hole diameter that extends out
+side the pad shapes.
+Error   (line 1216): Syntax error
+
+
+Total errors:       1
+Total warnings:     6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+23-Apr-10  16:55                                            Page    1
+
